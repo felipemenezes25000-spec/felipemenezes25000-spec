@@ -93,10 +93,9 @@ Monitoramento 24/7 em sistemas críticos. Clientes: LIGHT, Enel, Energisa, Mapfr
 
 | Projeto | Descrição | Tech |
 |---------|-----------|------|
-| [**Renovar**](https://github.com/felipemenezes25000-spec/Renovar) | Status Page com monitoramento em tempo real | TypeScript, React, Supabase |
-| [**vita-flow**](https://github.com/felipemenezes25000-spec/vita-flow) | Dashboard de observabilidade | TypeScript, React, Node |
-| [**med-renew**](https://github.com/felipemenezes25000-spec/med-renew) | Status page médica com alertas | TypeScript, React, PostgreSQL |
-
+| [**Renovar**](https://github.com/felipemenezes25000-spec/Renovar) | Aplicativo de telemedicina | TypeScript, React, Supabase |
+| [**vita-flow**](https://github.com/felipemenezes25000-spec/vita-flow) | App de telemedicina | TypeScript, React, Node |
+| [**med-renew**](https://github.com/felipemenezes25000-spec/med-renew) | Site para venda do app | TypeScript, React, PostgreSQL || [**vita-flow**](https://github.com/felipemenezes25000-spec/vita-flow) | Dashboard de observabilidade | TypeScript, React, Node |
 ---
 
 ## 🔟 Buscando Oportunidades
