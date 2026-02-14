@@ -13,7 +13,7 @@
 
 ## 👋 Sobre mim
 
-Especialista em gerenciamento de incidentes com 3+ anos de experiência em **NOC, Command Center e SRE**. Foco em **automação com IA**, **observabilidade avancçada** e **redução de MTTR**. Apaixonado por transformar operações críticas através de tecnologia inovadora.
+Especialista em gerenciamento de incidentes com 3+ anos de experiência em **NOC, Command Center e SRE**. Foco em **automação com IA**, **observabilidade avançada** e **redução de MTTR**. Apaixonado por transformar operações críticas através de tecnologia inovadora.
 
 ---
 
