@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400" role="img" aria-label="Arquitetura da RenoveJa+: quatro clientes (app paciente, app medico, portal web e portal RH) sobre uma API .NET 8 em Clean Architecture, apoiada por PostgreSQL, Redis, S3, assinatura ICP-Brasil e provedores de IA">
+  <title>RenoveJa+ — arquitetura da plataforma</title>
+
+  <defs>
+    <linearGradient id="apiGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#00D9FF" stop-opacity="0.14"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="400" rx="14" fill="#0d1117" stroke="#21262d"/>
+
+  <text x="30" y="28" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.6" fill="#8b949e">RENOVEJA+ &#183; MONOREPO &#183; 3 FRONTENDS + 1 API</text>
+
+  <!-- fluxo animado: clientes -> API -->
+  <g stroke="#00D9FF" stroke-width="1.6" stroke-opacity="0.55" stroke-dasharray="5 7" fill="none">
+    <path d="M143 112 V180"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="1s" repeatCount="indefinite"/></path>
+    <path d="M381 112 V180"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="1s" repeatCount="indefinite"/></path>
+    <path d="M619 112 V180"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="1s" repeatCount="indefinite"/></path>
+    <path d="M857 112 V180"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="1s" repeatCount="indefinite"/></path>
+  </g>
+
+  <!-- fluxo animado: API -> infra -->
+  <g stroke="#7C3AED" stroke-width="1.6" stroke-opacity="0.55" stroke-dasharray="5 7" fill="none">
+    <path d="M119 258 V322"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="1.2s" repeatCount="indefinite"/></path>
+    <path d="M309 258 V322"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="1.2s" repeatCount="indefinite"/></path>
+    <path d="M499 258 V322"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="1.2s" repeatCount="indefinite"/></path>
+    <path d="M689 258 V322"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="1.2s" repeatCount="indefinite"/></path>
+    <path d="M879 258 V322"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="1.2s" repeatCount="indefinite"/></path>
+  </g>
+
+  <g font-family="'Segoe UI', system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif">
+
+    <!-- clientes -->
+    <g>
+      <rect x="30" y="48" width="226" height="64" rx="10" fill="#161b22" stroke="#30363d"/>
+      <circle cx="48" cy="68" r="3.5" fill="#00D9FF"/>
+      <text x="62" y="73" font-size="15" font-weight="700" fill="#e6edf3">App Paciente</text>
+      <text x="48" y="97" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#8b949e">Expo 54 &#183; React Native</text>
+    </g>
+    <g>
+      <rect x="268" y="48" width="226" height="64" rx="10" fill="#161b22" stroke="#30363d"/>
+      <circle cx="286" cy="68" r="3.5" fill="#00D9FF"/>
+      <text x="300" y="73" font-size="15" font-weight="700" fill="#e6edf3">App Medico</text>
+      <text x="286" y="97" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#8b949e">fila &#183; teleconsulta &#183; IA</text>
+    </g>
+    <g>
+      <rect x="506" y="48" width="226" height="64" rx="10" fill="#161b22" stroke="#30363d"/>
+      <circle cx="524" cy="68" r="3.5" fill="#00D9FF"/>
+      <text x="538" y="73" font-size="15" font-weight="700" fill="#e6edf3">Portal Web</text>
+      <text x="524" y="97" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#8b949e">Vite 6 &#183; React 19</text>
+    </g>
+    <g>
+      <rect x="744" y="48" width="226" height="64" rx="10" fill="#161b22" stroke="#30363d"/>
+      <circle cx="762" cy="68" r="3.5" fill="#00D9FF"/>
+      <text x="776" y="73" font-size="15" font-weight="700" fill="#e6edf3">Portal RH</text>
+      <text x="762" y="97" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#8b949e">12 categorias &#183; LGPD</text>
+    </g>
+
+    <!-- API -->
+    <g>
+      <rect x="30" y="180" width="940" height="78" rx="12" fill="url(#apiGrad)" stroke="#7C3AED" stroke-opacity="0.55"/>
+      <text x="500" y="215" text-anchor="middle" font-size="22" font-weight="800" fill="#e6edf3">API .NET 8 &#160;&#183;&#160; Clean Architecture</text>
+      <text x="500" y="239" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" letter-spacing="0.6" fill="#a5b4fc">Domain &#8594; Application &#8594; Infrastructure &#8594; Api &#160;&#183;&#160; 2.008 testes</text>
+    </g>
+
+    <!-- infra -->
+    <g font-size="13" font-weight="700" fill="#e6edf3">
+      <rect x="30" y="322" width="178" height="66" rx="10" fill="#161b22" stroke="#30363d"/>
+      <text x="48" y="350">PostgreSQL</text>
+      <text x="48" y="371" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="400" fill="#8b949e">Npgsql &#183; Dapper</text>
+
+      <rect x="220" y="322" width="178" height="66" rx="10" fill="#161b22" stroke="#30363d"/>
+      <text x="238" y="350">Redis</text>
+      <text x="238" y="371" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="400" fill="#8b949e">lock &#183; SignalR</text>
+
+      <rect x="410" y="322" width="178" height="66" rx="10" fill="#161b22" stroke="#30363d"/>
+      <text x="428" y="350">AWS</text>
+      <text x="428" y="371" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="400" fill="#8b949e">ECS &#183; RDS &#183; S3 &#183; WAF</text>
+
+      <rect x="600" y="322" width="178" height="66" rx="10" fill="#161b22" stroke="#30363d"/>
+      <text x="618" y="350">ICP-Brasil</text>
+      <text x="618" y="371" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="400" fill="#8b949e">PAdES &#183; iText7</text>
+
+      <rect x="790" y="322" width="178" height="66" rx="10" fill="#161b22" stroke="#30363d"/>
+      <text x="808" y="350">IA</text>
+      <text x="808" y="371" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="400" fill="#8b949e">OpenAI &#183; Gemini</text>
+    </g>
+
+  </g>
+</svg>
