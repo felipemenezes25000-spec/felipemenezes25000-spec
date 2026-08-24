@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 128" width="1000" height="128" role="img" aria-label="Barra empilhada de linguagens: TypeScript 59,5%, C# 24,3%, JavaScript 10,8%, CSS 1,3%, PL/pgSQL 1,1% e outros 2,9%, em 84,7 MB de c&#243;digo">
+  <title>Distribui&#231;&#227;o de linguagens nos reposit&#243;rios pr&#243;prios</title>
+  <defs>
+
+  </defs>
+
+  <rect width="1000" height="128" rx="13" fill="#151b23" stroke="#3d444d"/>
+  <text x="26" y="32" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="600" fill="#9aa4af" letter-spacing="1.6">C&#211;DIGO PR&#211;PRIO POR LINGUAGEM &#183; 46 REPOSIT&#211;RIOS</text>
+  <text x="974" y="32" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="600" fill="#6cb6ff" text-anchor="end">84,7 MB &#183; API do GitHub &#183; 23/08/2026</text>
+  <rect x="26" y="56" width="948" height="26" rx="6" fill="#1b222c"/>
+  <rect x="26" y="56" width="564.5" height="26" rx="6" fill="#6cb6ff">
+      <animate attributeName="width" from="0" to="564.5" dur="0.9s" begin="0.15s" fill="freeze"/>
+    </rect><rect x="590.4637981294105" y="56" width="229.9" height="26" rx="0" fill="#d2a8ff">
+      <animate attributeName="width" from="0" to="229.9" dur="0.9s" begin="0.24s" fill="freeze"/>
+    </rect><rect x="820.3763914056433" y="56" width="102.6" height="26" rx="0" fill="#e3b341">
+      <animate attributeName="width" from="0" to="102.6" dur="0.9s" begin="0.33s" fill="freeze"/>
+    </rect><rect x="922.9664036736485" y="56" width="12.8" height="26" rx="0" fill="#f778ba">
+      <animate attributeName="width" from="0" to="12.8" dur="0.9s" begin="0.42s" fill="freeze"/>
+    </rect><rect x="935.7168004141859" y="56" width="10.7" height="26" rx="0" fill="#57d364">
+      <animate attributeName="width" from="0" to="10.7" dur="0.9s" begin="0.51s" fill="freeze"/>
+    </rect><rect x="946.4612769980529" y="56" width="27.5" height="26" rx="6" fill="#9aa4af">
+      <animate attributeName="width" from="0" to="27.5" dur="0.9s" begin="0.60s" fill="freeze"/>
+    </rect>
+  <g>
+      <rect x="26" y="98" width="9" height="9" rx="2.5" fill="#6cb6ff"/>
+      <text x="41" y="106" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#e6edf3">TypeScript</text>
+      <text x="41" y="121" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#9aa4af">59,5%  50,4 MB</text>
+    </g><g>
+      <rect x="184" y="98" width="9" height="9" rx="2.5" fill="#d2a8ff"/>
+      <text x="199" y="106" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#e6edf3">C#</text>
+      <text x="199" y="121" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#9aa4af">24,3%  20,5 MB</text>
+    </g><g>
+      <rect x="342" y="98" width="9" height="9" rx="2.5" fill="#e3b341"/>
+      <text x="357" y="106" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#e6edf3">JavaScript</text>
+      <text x="357" y="121" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#9aa4af">10,8%  9,2 MB</text>
+    </g><g>
+      <rect x="500" y="98" width="9" height="9" rx="2.5" fill="#f778ba"/>
+      <text x="515" y="106" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#e6edf3">CSS</text>
+      <text x="515" y="121" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#9aa4af">1,3%  1,1 MB</text>
+    </g><g>
+      <rect x="658" y="98" width="9" height="9" rx="2.5" fill="#57d364"/>
+      <text x="673" y="106" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#e6edf3">PL/pgSQL</text>
+      <text x="673" y="121" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#9aa4af">1,1%  1,0 MB</text>
+    </g><g>
+      <rect x="816" y="98" width="9" height="9" rx="2.5" fill="#9aa4af"/>
+      <text x="831" y="106" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#e6edf3">outros</text>
+      <text x="831" y="121" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#9aa4af">2,9%  2,4 MB</text>
+    </g>
+</svg>
