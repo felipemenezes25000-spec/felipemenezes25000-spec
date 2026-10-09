@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="230" viewBox="0 0 620 230" role="img" aria-labelledby="t">
+<title id="t">jp-clinica-odontologica — Site institucional de uma clínica odontológica na Freguesia do Ó, em São Paulo.</title>
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111A3A"/><stop offset="1" stop-color="#050816"/></linearGradient>
+  <radialGradient id="a" cx=".95" cy="0" r=".9"><stop offset="0" stop-color="#FBBF24" stop-opacity=".32"/><stop offset="1" stop-color="#FBBF24" stop-opacity="0"/></radialGradient>
+  <linearGradient id="luz" x1="0" x2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity=".12"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+  <linearGradient id="borda" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBBF24"/><stop offset=".5" stop-color="#FBBF24" stop-opacity=".15"/><stop offset="1" stop-color="#FBBF24"/></linearGradient>
+  <clipPath id="c"><rect width="620" height="230" rx="20"/></clipPath>
+</defs>
+<style>
+  .varre{animation:varre 7s ease-in-out infinite} @keyframes varre{0%{transform:translateX(-200px) skewX(-20deg)}30%,100%{transform:translateX(820px) skewX(-20deg)}}
+  .brilha{animation:brilha 4s ease-in-out infinite} @keyframes brilha{0%,100%{opacity:.55}50%{opacity:1}}
+  .seta{animation:seta 2.4s ease-in-out infinite} @keyframes seta{0%,100%{transform:translate(0,0)}50%{transform:translate(3px,-3px)}}
+</style>
+<g clip-path="url(#c)">
+  <rect width="620" height="230" fill="url(#g)"/>
+  <rect class="brilha" width="620" height="230" fill="url(#a)"/>
+  <rect class="varre" x="0" y="0" width="140" height="230" fill="url(#luz)"/>
+  <g transform="translate(28 30)"><rect width="40" height="40" rx="11" fill="#FBBF24" fill-opacity=".18"/><path d="M13 11c3-2 5 0 7 0s4-2 7 0c3 2 2 8 0 11-1 3-1 8-3 8s-2-6-4-6-2 6-4 6-2-5-3-8c-2-3-3-9 0-11z" fill="none" stroke="#FBBF24" stroke-width="2.2" stroke-linejoin="round"/></g>
+  <text x="84" y="62" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="800" fill="#F8FAFC">jp-clinica-odontologica</text>
+  <g class="seta" transform="translate(576 30)"><path d="M0 16 L16 0 M5 0 H16 V11" fill="none" stroke="#FBBF24" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="28" y="104" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15.5" fill="#E2E8F0">Site institucional de uma clínica odontológica</text><text x="28" y="126" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15.5" fill="#E2E8F0">na Freguesia do Ó, em São Paulo.</text>
+  <rect x="28" y="180" width="65.5" height="26" rx="13" fill="#FBBF24" fill-opacity=".14" stroke="#FBBF24" stroke-opacity=".5"/><text x="40" y="198" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#E2E8F0">React</text><rect x="103.5" y="180" width="140.2" height="26" rx="13" fill="#FBBF24" fill-opacity=".14" stroke="#FBBF24" stroke-opacity=".5"/><text x="115.5" y="198" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#E2E8F0">TanStack Start</text>
+</g>
+<rect x="1" y="1" width="618" height="228" rx="19" fill="none" stroke="url(#borda)" stroke-width="1.6"/>
+</svg>
